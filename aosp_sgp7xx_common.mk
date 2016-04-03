@@ -27,6 +27,28 @@ PRODUCT_COPY_FILES += \
     device/sony/karin_windy/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/karin_windy/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/sony/karin_windy/rootdir/sbin/mhl_sii8620_8061_drv.ko:root/sbin/mhl_sii8620_8061_drv.ko \
+    device/sony/karin_windy/rootdir/vendor/bin/touch_fusion:root/vendor/bin/touch_fusion \
+    device/sony/karin_windy/rootdir/vendor/firmware/max11945.bin:root/vendor/firmware/max11945.bin \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0000.cfg:root/vendor/etc/touch_fusion_panel_id_0x0000.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0700.cfg:root/vendor/etc/touch_fusion_panel_id_0x0700.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0701.cfg:root/vendor/etc/touch_fusion_panel_id_0x0701.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0702.cfg:root/vendor/etc/touch_fusion_panel_id_0x0702.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0704.cfg:root/vendor/etc/touch_fusion_panel_id_0x0704.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0705.cfg:root/vendor/etc/touch_fusion_panel_id_0x0705.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0706.cfg:root/vendor/etc/touch_fusion_panel_id_0x0706.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0708.cfg:root/vendor/etc/touch_fusion_panel_id_0x0708.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0709.cfg:root/vendor/etc/touch_fusion_panel_id_0x0709.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x070A.cfg:root/vendor/etc/touch_fusion_panel_id_0x070A.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x070C.cfg:root/vendor/etc/touch_fusion_panel_id_0x070C.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x070D.cfg:root/vendor/etc/touch_fusion_panel_id_0x070D.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0710.cfg:root/vendor/etc/touch_fusion_panel_id_0x0710.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x0717.cfg:root/vendor/etc/touch_fusion_panel_id_0x0717.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x071B.cfg:root/vendor/etc/touch_fusion_panel_id_0x071B.cfg \
+    device/sony/karin_windy/rootdir/vendor/etc/touch_fusion_panel_id_0x071F.cfg:root/vendor/etc/touch_fusion_panel_id_0x071F.cfg
+
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi

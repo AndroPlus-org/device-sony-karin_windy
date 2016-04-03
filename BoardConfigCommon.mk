@@ -15,3 +15,12 @@
 include device/sony/kitakami/PlatformConfig.mk
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/maxim_sti/gesture_wakeup"
+
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_MAX_BRIGHTNESS := 4095
+TW_IGNORE_ABS_MT_TRACKING_ID := true
+TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone10/temp
+
+TW_THEME := landscape_hdpi
+
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"

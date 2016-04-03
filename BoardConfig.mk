@@ -18,4 +18,4 @@ TARGET_BOOTLOADER_BOARD_NAME := SGP712
 
 WIFI_BUS := PCIE
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=karin_windy
+BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
